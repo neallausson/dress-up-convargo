@@ -9,8 +9,8 @@
     <div class="wrapper row1">
       <header id="header" class="clear">
         <div id="hgroup">
-          <h1><a href="#">Convargo</a></h1>
-          <h2>transport your goods</h2>
+          <h1><a href="index.html">Convargo</a></h1>
+          <h2><font size="5px">carry your goods</font size></h2>
         </div>
       </header>
     </div>
@@ -28,24 +28,64 @@
 
       </div>
     </div>
-    <div id="trucker">
-      <h2>Trucker part</h2>
-      <input class="name" type="text" placeholder="Trucker name"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
-      <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
+    <div>
+      <font size="5px">
+        <pre>
+        Welcome,
+          on Convargo, professional can send their goods in all Europe in a few clicks.
+          Give us your needs, we give you a fixed price and acces to more of 2 500 goods qualities truckers
+        </pre>
+      </font size>
     </div>
-    <div id="shipper">
-      <h2>Shipper part</h2>
-      <input class="name" type="text" placeholder="Shipper name"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="volume" type="number" placeholder="Volume in m3"/>
-      <div>
-         <input class="option" type="checkbox" placeholder="Deductible option"/>
-         <label for="deductible option">Do you want to take the deductible option ?</label>
+    <div>
+      <font size="5px">
+        <pre>
+        Calculate the price :
+        </pre>
+      </font size>
+    </div>
+    <pre>
+      <div id="trucker">
+        <h2><pre>     Trucker part</pre></h2>
+        <input class="name" type="text" placeholder="Trucker name"/>
+        <input class="price-by-km" type="number" placeholder="Price by km"/>
+        <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
       </div>
+      <div id="shipper">
+        <h2><pre>     Shipper part</pre></h2>
+        <input class="name" type="text" placeholder="Shipper name"/>
+        <input class="distance" type="number" placeholder="Distance in km"/>
+        <input class="volume" type="number" placeholder="Volume in m3"/>
+
+
+    </pre>
+    <div>
+
     </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
+    <div>
+      <pre>
+      The deductible option :
+        In case of an accident/theft, convargo applies a 1000€ deductible.
+        The shipper can reduce the deductible amount from 1000€ to 200€ with a deductible option for a few more euros per volume.
+        The driver is charged an additional 1€/m3 when he chooses the deductible reduction option.
+        The additional charge goes to convargo, not to the trucker.
+
+        <input class="option" type="checkbox" placeholder="Deductible option"/><label for="deductible option">Do you want the deductible option ?</label>
+
+      <button id="compute">Compute</button>
+      </pre>
+
+    </div>
+  </div>
+
+  <div>
+
+
+  </div>
+  <pre>
+        <div id="actors"></div>
+  </pre>
+
     <script src="convargo.js"></script>
     <script src="index.js"></script>
   </body>
